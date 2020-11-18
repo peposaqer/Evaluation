@@ -202,7 +202,7 @@ function arabicLang() {
   $(".Contact ul").css({ "margin-left": "5rem" });
   $(".header h1").css({ "text-align": "right" });
   $(".header p").css({ "text-align": "right" });
-  // $("nav ul").css({ "float": "right" });
+  $("nav ul").css({ "float": "right" });
   $(".header").css({"background": "url(img/header2.png)" });
   $("body").css({ "font-family": "'Tajawal', sans-serif" });
 
