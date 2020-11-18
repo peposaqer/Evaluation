@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/web.css" />
 </head>
-<body>
+<body onload="loadLang()">
     <!-- <div id="work-in-progress">
         <div class="work-spinner"></div>
     </div> -->
@@ -59,19 +59,19 @@
     </nav>
     <!-- end nav -->
     <!-- start header -->
-    <div class="header" id="Home">
+    <div class="chang header" id="Home">
         <div class="container">
             <div class="row group">
-                <div class="col-md-6">
-                    <h1>Rating system</h1>
-                    <p>Our Emojis expressions are easy to use and easy to enable the customer to send his voice directly to the decision-makers without any hindrance and the ease of collecting their customer data. It makes it very easy to follow and analyze comments, as it enables you to save time and energy to focus on making customer opinions better.</p>
+                <div class="chang col-md-6">
+                    <h1 id="header_h1">Rating system</h1>
+                    <p id="header_p">Our Emojis expressions are easy to use and easy to enable the customer to send his voice directly to the decision-makers without any hindrance and the ease of collecting their customer data. It makes it very easy to follow and analyze comments, as it enables you to save time and energy to focus on making customer opinions better.</p>
                 </div>
             </div>
         </div>
     </div>
     <!-- end header -->
     <!-- start about-->
-    <div class="about" id="About">
+    <div class="chang about" id="About">
         <div class="container">
             <div class="row ">
                 <div class="col-md-6 group">
@@ -79,8 +79,8 @@
                 </div>
                 <div class="col-md-6 group">
                     <div class="">
-                        <h1>Get to know us better</h1>
-                        <p>Advertising is an important and influencing tool in different commercial operations, as it forms a means of communication that depends on influencing one or more individuals through the use of one of the promotional methods available to build communication between consumers and products. Non-personal means and means of communication for the transmission of ideas and the promotion of products and services.</p>
+                        <h1 id="about_h1">Get to know us better</h1>
+                        <p id="about_p">Advertising is an important and influencing tool in different commercial operations, as it forms a means of communication that depends on influencing one or more individuals through the use of one of the promotional methods available to build communication between consumers and products. Non-personal means and means of communication for the transmission of ideas and the promotion of products and services.</p>
                     </div>    
                 </div>
             </div>
@@ -88,10 +88,10 @@
     </div> 
     <!-- end about-->
     <!-- start why -->
-    <div class="why" id="Why">
+    <div class="chang why" id="Why">
         <div class="container">
-                <h1>Why choose Evaluation?</h1>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                <h1 id="why_h1">Why choose Evaluation?</h1>
+                <p id="why_p">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
             <div class="row">
                 <div class="col-md-12 d-flex pad">
                     <div class="col-md-1 col-sm-1"></div>
@@ -134,10 +134,10 @@
     </div>
     <!-- end why -->
     <!-- start album -->
-    <div class="album" id="Album">
+    <div class="chang album" id="Album">
         <div class="container">
-            <h1>our album</h1>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+            <h1 id="album_h1">our album</h1>
+            <p id="album_p">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
             <div class="row">
                 <div class="col-md-3 album-img">
                     <img src="img/1.png" alt=""  data-aos="zoom-in">
@@ -189,8 +189,8 @@
     <div class="Testimonials" id="Testimonials">
         <div class="container">
             <div class="chang porta">
-                <h1>TESTIMONIALS</h1>
-                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+                <h1 id="Testimonials_h1">TESTIMONIALS</h1>
+                <p id="Testimonials_p">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
             </div>
             <!-- Swiper -->
             <div class="row">
@@ -256,26 +256,42 @@
     </div>
     <!-- end Testimonials -->
     <!-- start clients -->
-    <div class="clients" id="Partners">
+    <div class="chang clients" id="Partners">
         <div class="container">
-            <h1>our clients</h1>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+            <h1 id="clients_h1">our clients</h1>
+            <p id="clients_p">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
             <div class="row">
                 <div class="col-md-6 col-sm-12 d-flex">
-                <div class="col-md-6 col-sm-6"><img src="img/logoone.svg" alt=""></div>
-                <div class="col-md-6 col-sm-6"><img src="img/logotwo.svg" alt=""></div>
+                <div class="col-md-6 col-sm-6"><img src="img/logoone.svg" alt="" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"></div>
+                <div class="col-md-6 col-sm-6"><img src="img/logotwo.svg" alt="" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"></div>
                 </div>
                 <div class="col-md-6 col-sm-12 d-flex">
-                <div class="col-md-6 col-sm-6"><img src="img/logothree.svg" alt=""></div>
-                <div class="col-md-6 col-sm-6"><img src="img/logofour.svg" alt=""></div>
+                <div class="col-md-6 col-sm-6"><img src="img/logothree.svg" alt="" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"></div>
+                <div class="col-md-6 col-sm-6"><img src="img/logofour.svg" alt="" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"></div>
                 </div>
                 <div class="col-md-6 col-sm-12 d-flex">
-                <div class="col-md-6 col-sm-6"><img src="img/logofive.svg" alt=""></div>
-                <div class="col-md-6 col-sm-6"><img src="img/logosix.svg" alt=""></div>
+                <div class="col-md-6 col-sm-6"><img src="img/logofive.svg" alt="" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"></div>
+                <div class="col-md-6 col-sm-6"><img src="img/logosix.svg" alt="" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"></div>
                 </div>
                 <div class="col-md-6 col-sm-12 d-flex">
-                <div class="col-md-6 col-sm-6"><img src="img/logoseven.svg" alt=""></div>
-                <div class="col-md-6 col-sm-6"><img src="img/logoeight.svg" alt=""></div>
+                <div class="col-md-6 col-sm-6"><img src="img/logoseven.svg" alt="" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"></div>
+                <div class="col-md-6 col-sm-6"><img src="img/logoeight.svg" alt="" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"></div>
                 </div>
             </div>
         </div>
@@ -305,7 +321,7 @@
                     </ul>
                 </div>
                 <div class="chang ">
-                    <p id="contact_copy" class="copy">Copyright ©2019 All rights reserved<br>Powered by ViewPlus</p>
+                    <p id="contact_copy" class="copy">Copyright ©2019 All rights reserved<br>Powered by <a href="#!" class="plus">ViewPlus</a></p>
                 </div>
             </div>
         </div>
@@ -313,9 +329,11 @@
     <!-- end Contact -->
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script src="js/web.js"></script>
 </body>
 </html>
