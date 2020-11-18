@@ -240,7 +240,7 @@ function englishLang() {
   $("#contact_copy").text(language.contact_copy);
   $("#contact_email").attr("placeholder", language.contact_email);
   $("#contact_textarea").attr("placeholder", language.contact_textarea);
-  $(".header").css({ background: "url(../img/home-bg.svg)" });
+  $(".header").css({ background: "url(img/home-bg.svg)" });
 
 
 
