@@ -205,6 +205,8 @@ function arabicLang() {
   $("nav ul").css({ "float": "right" });
   $(".header").css({"background": "url(img/header2.png)" });
   $("body").css({ "font-family": "'Tajawal', sans-serif" });
+  $("nav ul").css({"margin-right": "auto" });
+  $("nav ul").css({ "margin-left": "0" });
 
 
   // Function To Dismiss Progress Ring
@@ -241,6 +243,9 @@ function englishLang() {
   $("#contact_email").attr("placeholder", language.contact_email);
   $("#contact_textarea").attr("placeholder", language.contact_textarea);
   $(".header").css({"background": "url(img/home-bg.svg)" });
+  $("nav ul").css({ "margin-left": "auto" });
+  $("nav ul").css({ "margin-right": "0" });
+
 
 
 
