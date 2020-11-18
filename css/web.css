@@ -8,6 +8,7 @@ body {
 
 .right-dir {
   direction: rtl;
+  text-align: right;
 }
 
 #work-in-progress {
