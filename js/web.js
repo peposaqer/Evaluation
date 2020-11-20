@@ -115,19 +115,19 @@ $(document).ready(function () {
 });
 
 
-$(".en").hide();
+// $(".en").hide();
 
-//show more button
-$(".arbic").click(function () {
-  $(".arbic").hide();
-  $(".en").show();
-});
+// //show more button
+// $(".arbic").click(function () {
+//   $(".arbic").hide();
+//   $(".en").show();
+// });
 
-//show more button
-$(".en").click(function () {
-  $(".en").hide();
-  $(".arbic").show();
-});
+// //show more button
+// $(".en").click(function () {
+//   $(".en").hide();
+//   $(".arbic").show();
+// });
 
 
 
@@ -207,7 +207,8 @@ function arabicLang() {
   $("body").css({ "font-family": "'Tajawal', sans-serif" });
   $("nav ul").css({"margin-right": "auto" });
   $("nav ul").css({ "margin-left": "0" });
-
+    $(".arbic").hide();
+    $(".en").show();
 
   // Function To Dismiss Progress Ring
   // dismissProgress();
@@ -246,7 +247,8 @@ function englishLang() {
   $("nav ul").css({ "margin-left": "auto" });
   $("nav ul").css({ "margin-right": "0" });
 
-
+$(".en").hide();
+$(".arbic").show();
 
 
   // Function To Dismiss Progress Ring
