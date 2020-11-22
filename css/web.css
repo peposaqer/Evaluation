@@ -488,8 +488,11 @@ nav a:hover {
 }
 
 .Contact form {
-  text-align: -webkit-center;
-  display: grid;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
   color: #fff;
 }
 
@@ -624,6 +627,10 @@ nav a:hover {
     font-size: 12px;
   }
 
+  .clients {
+    margin-bottom: 2rem;
+  }
+
   
   .Contact h1 {
     font-size: 20px;
@@ -663,6 +670,11 @@ nav a:hover {
 @media (min-width: 321px) and (max-width: 425px) {
   .header h1 {
     font-size: 20px;
+  }
+
+  
+  .clients {
+    margin-bottom: 2rem;
   }
 
   .header p {

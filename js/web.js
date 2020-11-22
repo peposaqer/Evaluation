@@ -215,16 +215,21 @@ function arabicLang() {
   $("#contact_copy").text(language.contact_copy);
   $("#contact_email").attr("placeholder", language.contact_email);
   $("#contact_textarea").attr("placeholder", language.contact_textarea);
+  $("#contact_a").attr("value", language.contact_a);
   $(".Contact ul").css({ "margin-left": "5rem" });
   $(".header h1").css({ "text-align": "right" });
   $(".header p").css({ "text-align": "right" });
   $("nav ul").css({ "float": "right" });
-  $(".header").css({"background": "url(img/header2.png)" });
+  $(".header").css({ "background-repeat": "no-repeat" });
+  $(".header").css({ "background": "url(img/header2.png)" });
+  $(".header").css({ "background-size": "cover" });
   $("body").css({ "font-family": "'Tajawal', sans-serif" });
   $("nav ul").css({"margin-right": "auto" });
   $("nav ul").css({ "margin-left": "0" });
-    $(".arbic").hide();
-    $(".en").show();
+  document.querySelector("style").textContent +=
+    "@media screen and (max-width:425px) { .why .group { margin-left: .5rem }}";
+  $(".arbic").hide();
+  $(".en").show();
 
   // Function To Dismiss Progress Ring
   // dismissProgress();
@@ -276,12 +281,16 @@ function englishLang() {
   $("#contact_copy").text(language.contact_copy);
   $("#contact_email").attr("placeholder", language.contact_email);
   $("#contact_textarea").attr("placeholder", language.contact_textarea);
+  $("#contact_a").attr("value", language.contact_a);
   $(".header").css({"background": "url(img/home-bg.svg)" });
+  $(".header").css({ "background-repeat": "no-repeat" });
+  $(".header").css({ "background-size": "cover" });
   $("nav ul").css({ "margin-left": "auto" });
   $("nav ul").css({ "margin-right": "0" });
-
-$(".en").hide();
-$(".arbic").show();
+  document.querySelector("style").textContent +=
+    "@media screen and (max-width:425px) { .why .group { margin-left: .5rem }}";
+  $(".en").hide();
+  $(".arbic").show();
 
 
   // Function To Dismiss Progress Ring
