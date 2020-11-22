@@ -426,7 +426,7 @@ nav a:hover {
 /* start Contact */
 
 .Contact {
-  background: url(../img/footer.svg);
+  /* background: url(../img/footer.svg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
