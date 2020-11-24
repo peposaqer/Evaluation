@@ -437,6 +437,10 @@ nav a:hover {
   height: 90vh;
 } */
 
+.padding {
+  padding-bottom: 3rem;
+}
+
 .Contact p {
   margin-bottom: 0;
 }
