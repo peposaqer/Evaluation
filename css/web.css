@@ -433,9 +433,9 @@ nav a:hover {
   background-color: #13294E;
 }
 
-.Contact .container {
+/* .Contact .container {
   height: 90vh;
-}
+} */
 
 .Contact p {
   margin-bottom: 0;
@@ -754,10 +754,12 @@ nav a:hover {
 
   .Contact form input {
     width: 90%;
+    font-size: 12px;
   }
 
   .Contact form textarea {
     width: 90%;
+    font-size: 12px;
   }
 
   .Contact .send {
