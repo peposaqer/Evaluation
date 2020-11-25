@@ -156,7 +156,7 @@ nav a:hover {
 /* start header */
 
 .header {
-    background: url(img/home-bg.svg);
+    /* background: url(img/home-bg.svg); */
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -589,6 +589,8 @@ nav a:hover {
   .navbar ul {
     text-align: center;
     float: none;
+    align-items: center;
+    width: 100%;
   }
 
 
@@ -720,6 +722,8 @@ nav a:hover {
   .navbar ul {
     text-align: center;
     float: none;
+    align-items: center;
+    width: 100%;
   }
 
   
@@ -857,6 +861,8 @@ nav a:hover {
   .navbar ul {
     text-align: center;
     float: none;
+    align-items: center;
+    width: 100%;
   }
 
 }
