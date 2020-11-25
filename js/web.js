@@ -283,6 +283,8 @@ function englishLang() {
   $("#contact_email").attr("placeholder", language.contact_email);
   $("#contact_textarea").attr("placeholder", language.contact_textarea);
   $("#contact_a").attr("value", language.contact_a);
+  $(".header h1").css({ "text-align": "left" });
+  $(".header p").css({ "text-align": "left" });
   $(".header").css({"background": "url(img/home-bg.svg)" });
   $(".header").css({ "background-position": "center" });
   $(".header").css({ "background-repeat": "no-repeat" });
