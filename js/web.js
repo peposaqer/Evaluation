@@ -222,6 +222,7 @@ function arabicLang() {
   $("nav ul").css({ "float": "right" });
   $(".header").css({ "background-repeat": "no-repeat" });
   $(".header").css({ "background": "url(img/header2.png)" });
+  $(".header").css({ "background-position": "center" });
   $(".header").css({ "background-size": "cover" });
   $("body").css({ "font-family": "'Tajawal', sans-serif" });
   $("nav ul").css({"margin-right": "auto" });
@@ -283,6 +284,7 @@ function englishLang() {
   $("#contact_textarea").attr("placeholder", language.contact_textarea);
   $("#contact_a").attr("value", language.contact_a);
   $(".header").css({"background": "url(img/home-bg.svg)" });
+  $(".header").css({ "background-position": "center" });
   $(".header").css({ "background-repeat": "no-repeat" });
   $(".header").css({ "background-size": "cover" });
   $("nav ul").css({ "margin-left": "auto" });

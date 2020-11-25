@@ -569,6 +569,29 @@ nav a:hover {
     font-size: 20px;
   }
 
+  .navbar ul li {
+    text-align: center;
+  }
+
+  .navbar .container {
+    background-color: #041b43;
+    opacity: .8;
+  }
+/* 
+  .navbar {
+    background-color: #4b40cf;
+  } */
+
+  .nav-link {
+    padding: 0;
+  }
+  
+  .navbar ul {
+    text-align: center;
+    float: none;
+  }
+
+
   
   .header {
     background-position: center;
@@ -674,6 +697,29 @@ nav a:hover {
 @media (min-width: 321px) and (max-width: 425px) {
   .header h1 {
     font-size: 20px;
+  }
+
+
+  .navbar ul li {
+    text-align: center;
+  }
+
+  .navbar .container {
+    background-color: #041b43;
+    opacity: .8;
+  }
+/* 
+  .navbar {
+    background-color: #4b40cf;
+  } */
+
+  .nav-link {
+    padding: 0;
+  }
+  
+  .navbar ul {
+    text-align: center;
+    float: none;
   }
 
   
@@ -790,6 +836,29 @@ nav a:hover {
   .header {
     background-position: center;
   }
+
+  .navbar ul li {
+    text-align: center;
+  }
+
+  .navbar .container {
+    background-color: #041b43;
+    opacity: .8;
+  }
+/* 
+  .navbar {
+    background-color: #4b40cf;
+  } */
+
+  .nav-link {
+    padding: 0;
+  }
+  
+  .navbar ul {
+    text-align: center;
+    float: none;
+  }
+
 }
 
 
