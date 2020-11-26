@@ -554,10 +554,19 @@ nav a:hover {
 .plus {
   text-decoration: none;
   color: #FFF;
+  margin-left: .2rem;
+  margin-right: .2rem;
 }
 .plus:hover {
   text-decoration: none;
   color: #FFF;
+}
+
+.viwe {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  padding-bottom: .3rem;
 }
 
 /* end Contact */
