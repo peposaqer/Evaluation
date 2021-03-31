@@ -581,6 +581,10 @@ nav a:hover {
     font-size: 20px;
   }
 
+  .plus {
+    font-size: 9px;
+  }
+
   .navbar ul li {
     text-align: center;
   }
@@ -605,6 +609,9 @@ nav a:hover {
     width: 100%;
   }
 
+  .Testimonials {
+    padding: 0;
+  }
 
   
   .header {
@@ -711,6 +718,14 @@ nav a:hover {
 @media (min-width: 321px) and (max-width: 425px) {
   .header h1 {
     font-size: 20px;
+  }
+
+  .plus {
+    font-size: 9px;
+  }
+
+  .Testimonials {
+    padding: 0;
   }
 
 
@@ -847,6 +862,14 @@ nav a:hover {
 
   .about p {
     font-size: 13px;
+  }
+
+  .Testimonials {
+    padding: 0;
+  }
+
+  .plus {
+    font-size: 9px;
   }
 
   .header {
