@@ -205,8 +205,12 @@ function arabicLang() {
   $("#testimonials_p1").text(language.testimonials_p1);
   $("#testimonials_h5_1").text(language.testimonials_h5_1);
   $("#testimonials_p2").text(language.testimonials_p2);
-  $("#testimonials_h1_2").text(language.testimonials_h5_2);
+  $("#testimonials_h5_2").text(language.testimonials_h5_2);
+  $("#testimonials_h5_3").text(language.testimonials_h5_3);
+  $("#testimonials_h5_4").text(language.testimonials_h5_4);
   $("#testimonials_p3").text(language.testimonials_p3);
+  $("#testimonials_p4").text(language.testimonials_p4);
+  $("#testimonials_p5").text(language.testimonials_p5);
   $("#clients_h1").text(language.clients_h1);
   $("#clients_p").text(language.clients_p);
   $("#Contact_h1").text(language.Contact_h1);
@@ -272,8 +276,12 @@ function englishLang() {
   $("#testimonials_p1").text(language.testimonials_p1);
   $("#testimonials_h5_1").text(language.testimonials_h5_1);
   $("#testimonials_p2").text(language.testimonials_p2);
-  $("#testimonials_h1_2").text(language.testimonials_h5_2);
+  $("#testimonials_h5_2").text(language.testimonials_h5_2);
+  $("#testimonials_h5_3").text(language.testimonials_h5_3);
+  $("#testimonials_h5_4").text(language.testimonials_h5_4);
   $("#testimonials_p3").text(language.testimonials_p3);
+  $("#testimonials_p4").text(language.testimonials_p4);
+  $("#testimonials_p5").text(language.testimonials_p5);
   $("#clients_h1").text(language.clients_h1);
   $("#clients_p").text(language.clients_p);
   $("#Contact_h1").text(language.Contact_h1);

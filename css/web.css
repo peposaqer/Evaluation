@@ -118,8 +118,10 @@ nav .navbar-brand:hover {
 }
 
 nav .navbar-brand img {
-  width: 125px;
-  height: 55px;
+  width: 220px;
+  height: auto;
+  margin-top: .6rem;
+  margin-left: -2rem;
 }
 
 nav ul {
@@ -392,6 +394,7 @@ nav a:hover {
   width: 80px;
   height: 80px;
   margin-bottom: 2rem;
+  border-radius: 50%;
 }
 
 
